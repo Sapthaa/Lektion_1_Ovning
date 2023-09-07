@@ -23,6 +23,23 @@ public class Main {
         System.out.println(hej+san);
 
         // Uppgift 4
+        // Bytte ut public till private, fick error - Main method hittades ej
+
+        // Uppgift 5
+        // Tog bort static och fick error - Main method hittades ej i klass Main
+
+        // Uppgift 6
+        int number = 1;
+        int Number = 2;
+        // Skrev ut number - fick svar 1
+        System.out.println(number);
+        // Skrev ut Number - fick svar 2
+        System.out.println(Number);
+        // Skrev ut de två tillsammans - fick svar 3
+        System.out.println(number+Number);
+        // variabeln number och Number har två olika värden
+
+
 
 
 
